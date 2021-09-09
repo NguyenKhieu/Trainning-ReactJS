@@ -2,11 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Cart from './screens/MyCart';
+import Product from './screens/Home';
+import Category from './screens/ListProduct';
+import Search from './screens/SearchList';
+import OrderSuccess from './screens/OrderSuccess';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    {/* <Cart /> */}
+    {/* <Category /> */}
+    {/* <Product/> */}
+    {/* <Search/> */}
+    {/* < OrderSuccess/> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
